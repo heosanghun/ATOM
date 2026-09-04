@@ -1,13 +1,13 @@
-# EQUIPHASE // AI — Sovereign O(1) Constant Memory Infrastructure
+# ATOM DYNAMICS — Sovereign O(1) Constant Memory Infrastructure
 
-Google Stitch에서 설계된 **EquiPhase AI (Cogni-OS Sovereign AI Platform)** 공식 홈페이지 워크스페이스입니다.
+차세대 소버린 AI 플랫폼 **ATOM DYNAMICS (Cogni-OS™ Sovereign AI Platform)** 공식 홈페이지 워크스페이스입니다.
 
 ## 📁 프로젝트 구조
 
 ```text
 HOMEPAGE/
-├── index.html              # 메인 랜딩 페이지 (EquiPhase AI)
-├── DESIGN.md               # Stitch 디자인 시스템 토큰 명세서
+├── index.html              # 메인 랜딩 페이지 (ATOM DYNAMICS)
+├── DESIGN.md               # 디자인 시스템 토큰 명세서
 ├── package.json            # 로컬 프리뷰 및 실행 스크립트
 ├── .env                    # STITCH_API_KEY 환경 설정
 ├── .agents/
@@ -16,7 +16,7 @@ HOMEPAGE/
 │   └── images/             # 하드웨어 노드, AR 스마트글라스, 실증 현장 고화질 이미지
 └── screens/
     ├── physical_ai_data_factory.html # Physical AI Data Factory 상세 화면
-    └── equis_axis_ai_logo.html       # EquiPhase AI 로고 시스템
+    └── equis_axis_ai_logo.html       # 로고 시스템
 ```
 
 ## 🚀 로컬 미리보기 실행

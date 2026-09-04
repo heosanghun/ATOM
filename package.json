@@ -1,14 +1,15 @@
 {
-  "name": "equiphase-sovereign-ai-homepage",
+  "name": "atom-dynamics-sovereign-ai-homepage",
   "version": "1.0.0",
-  "description": "EQUIPHASE // AI — Sovereign O(1) Constant Memory Infrastructure Homepage",
+  "description": "ATOM DYNAMICS — Sovereign O(1) Constant Memory Infrastructure Homepage",
   "scripts": {
     "dev": "npx -y serve . -l 3000",
     "start": "npx -y serve ."
   },
   "keywords": [
-    "equiphase",
-    "stitch",
+    "atom",
+    "atom-dynamics",
+    "cogni-os",
     "sovereign-ai",
     "deq"
   ],
