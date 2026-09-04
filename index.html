@@ -369,15 +369,15 @@
           문서 길이가 길어질수록 기하급수적으로 폭발하는 Transformer의 메모리 비효율을 고정점 반복(Fixed-Point Iteration) 수학으로 완벽히 해결했습니다.
         </p>
 </div>
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-<!-- Legacy Fragility Tile -->
-<div class="relative p-8 rounded-xl border border-error/30 bg-surface-container-low/50 backdrop-blur-md overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<!-- Left: Legacy Fragility Tile (5 cols) -->
+<div class="lg:col-span-5 relative p-7 md:p-8 rounded-xl border border-error/30 bg-surface-container-low/50 backdrop-blur-md overflow-hidden flex flex-col justify-between h-full">
 <div class="flex items-center justify-between border-b border-error/20 pb-4 mb-6">
 <div class="flex items-center gap-3">
 <span class="material-symbols-outlined text-error" data-icon="warning">warning</span>
 <h3 class="font-headline-sm text-headline-sm font-semibold text-error">기존 Transformer 기반 대형 클러스터</h3>
 </div>
-<span class="font-label-sm text-label-sm text-error px-2 py-0.5 rounded bg-error/10 border border-error/30">STRUCTURAL CRISIS</span>
+<span class="font-label-sm text-label-sm text-error px-2 py-0.5 rounded bg-error/10 border border-error/30 shrink-0">STRUCTURAL CRISIS</span>
 </div>
 <div class="space-y-6">
 <div class="flex gap-4 items-start">
@@ -409,19 +409,68 @@
 </div>
 </div>
 <div class="mt-8 pt-4 border-t border-error/20 flex justify-between items-center font-label-sm text-label-sm text-outline">
-<span class="">MEMORY CONSUMPTION</span>
+<span>MEMORY CONSUMPTION</span>
 <span class="text-error font-mono font-bold">O(N²) DIVERGENCE (UNBOUNDED)</span>
 </div>
 </div>
-<!-- ATOM DEQ Breakthrough Tile -->
-<div class="relative p-8 rounded-xl border border-primary-container/40 bg-surface-container-low/80 backdrop-blur-md shadow-[0_0_30px_-5px_rgba(0,242,254,0.15)] overflow-hidden">
+
+<!-- Center: ATOM 3-Layer Resolution Core (2 cols) -->
+<div class="lg:col-span-2 flex flex-col items-center justify-center relative py-8 lg:py-0">
+  <!-- Glowing Background Aura -->
+  <div class="absolute w-44 h-44 bg-primary-container/15 blur-3xl rounded-full pointer-events-none"></div>
+  
+  <div class="relative z-10 flex flex-col items-center gap-4 w-full">
+    <!-- Directional Badge Top -->
+    <div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-highest/90 border border-outline-variant/60 font-mono text-[10px] text-primary-container uppercase tracking-wider shadow-md">
+      <span>3 PROBLEMS</span>
+      <span class="material-symbols-outlined text-[13px]">arrow_forward</span>
+      <span>3 SOLUTIONS</span>
+    </div>
+
+    <!-- Glowing 3D Layered Logo -->
+    <div class="relative group p-2 flex flex-col items-center">
+      <div class="absolute -inset-3 rounded-3xl bg-gradient-to-r from-primary-container/30 via-[#3b82f6]/20 to-secondary-fixed/30 blur-md group-hover:blur-xl transition-all duration-500 animate-pulse"></div>
+      <img src="assets/images/atom_logo.png" alt="ATOM 3-Layer Solver Core Logo" class="w-28 h-28 md:w-32 md:h-32 relative object-contain drop-shadow-[0_0_25px_rgba(0,242,254,0.65)] group-hover:scale-105 transition-transform duration-300" />
+      <span class="absolute -bottom-1 w-2.5 h-2.5 rounded-full bg-primary-container animate-ping"></span>
+    </div>
+
+    <!-- Center Brand Title -->
+    <div class="flex flex-col items-center gap-1 text-center">
+      <span class="font-headline-sm text-[16px] font-black tracking-widest text-primary">
+        ATOM <span class="text-primary-container">CORE</span>
+      </span>
+      <span class="text-[9px] font-mono tracking-widest text-on-surface-variant uppercase bg-surface-container-high px-2.5 py-0.5 rounded border border-outline-variant/50">
+        3-LAYER SOLVER
+      </span>
+    </div>
+
+    <!-- 3 Layer-to-Problem Mapping Badges -->
+    <div class="flex flex-col gap-1.5 w-full max-w-[155px] font-mono text-[9px] text-center">
+      <div class="px-2 py-1 rounded bg-[#3b82f6]/15 border border-[#3b82f6]/40 text-[#93c5fd] shadow-sm flex items-center justify-center gap-1" title="상단 레이어: O(1) 메모리 수렴">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#3b82f6] shrink-0"></span>
+        <span class="truncate">L1. O(1) 메모리 보증</span>
+      </div>
+      <div class="px-2 py-1 rounded bg-[#00f2fe]/15 border border-[#00f2fe]/40 text-[#00f2fe] shadow-sm flex items-center justify-center gap-1" title="중단 레이어: 단 1대 워크스테이션 완결">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#00f2fe] shrink-0"></span>
+        <span class="truncate">L2. 단일 노드 완결</span>
+      </div>
+      <div class="px-2 py-1 rounded bg-[#10b981]/15 border border-[#10b981]/40 text-[#34d399] shadow-sm flex items-center justify-center gap-1" title="하단 레이어: 불변 감사 봉인">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#10b981] shrink-0"></span>
+        <span class="truncate">L3. Tech-Audit™ 봉인</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Right: ATOM DEQ Breakthrough Tile (5 cols) -->
+<div class="lg:col-span-5 relative p-7 md:p-8 rounded-xl border border-primary-container/40 bg-surface-container-low/80 backdrop-blur-md shadow-[0_0_30px_-5px_rgba(0,242,254,0.15)] overflow-hidden flex flex-col justify-between h-full">
 <div class="absolute top-0 right-0 w-48 h-48 bg-primary-container/10 blur-3xl pointer-events-none"></div>
 <div class="flex items-center justify-between border-b border-primary-container/30 pb-4 mb-6">
 <div class="flex items-center gap-3">
 <span class="material-symbols-outlined text-primary-container" data-icon="verified">verified</span>
 <h3 class="font-headline-sm text-headline-sm font-semibold text-primary">ATOM O(1) 소버린 DEQ 아키텍처</h3>
 </div>
-<span class="font-label-sm text-label-sm text-primary-container px-2 py-0.5 rounded bg-primary-container/10 border border-primary-container/30">PATENTED SOLVER</span>
+<span class="font-label-sm text-label-sm text-primary-container px-2 py-0.5 rounded bg-primary-container/10 border border-primary-container/30 shrink-0">PATENTED SOLVER</span>
 </div>
 <div class="space-y-6">
 <div class="flex gap-4 items-start">
@@ -453,7 +502,7 @@
 </div>
 </div>
 <div class="mt-8 pt-4 border-t border-primary-container/30 flex justify-between items-center font-label-sm text-label-sm text-on-surface-variant">
-<span class="">MEMORY CONSUMPTION</span>
+<span>MEMORY CONSUMPTION</span>
 <span class="text-primary-container font-mono font-bold">O(1) CONSTANT [48.00 GB LOCKED]</span>
 </div>
 </div>
