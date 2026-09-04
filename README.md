@@ -1,12 +1,12 @@
-# ATOM DYNAMICS — Sovereign O(1) Constant Memory Infrastructure
+# ATOM — Sovereign O(1) Constant Memory Infrastructure
 
-차세대 소버린 AI 플랫폼 **ATOM DYNAMICS (Cogni-OS™ Sovereign AI Platform)** 공식 홈페이지 워크스페이스입니다.
+차세대 소버린 AI 플랫폼 **ATOM (Cogni-OS™ Sovereign AI Platform)** 공식 홈페이지 워크스페이스입니다.
 
 ## 📁 프로젝트 구조
 
 ```text
 HOMEPAGE/
-├── index.html              # 메인 랜딩 페이지 (ATOM DYNAMICS)
+├── index.html              # 메인 랜딩 페이지 (ATOM)
 ├── DESIGN.md               # 디자인 시스템 토큰 명세서
 ├── package.json            # 로컬 프리뷰 및 실행 스크립트
 ├── .env                    # STITCH_API_KEY 환경 설정
