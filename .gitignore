@@ -1,0 +1,11 @@
+# Environment & Secrets
+.env
+.env.*
+.agents/
+
+# Dependencies
+node_modules/
+
+# OS & Temp
+.DS_Store
+Thumbs.db
